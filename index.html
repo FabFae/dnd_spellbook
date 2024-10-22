@@ -11,67 +11,31 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<div id="spells">
-		<section>
-			<h3>Known Spells</h3>	
-		</section>
-	
-		<section>	
-			<h3>Spell List</h3>
+	<body>
+		<div id="spells">
 			
-			<div id="all-spells">
-			<body>
-				<div class="collapsible">
-					<label for="collapsible-head1">Level 1</label>
-					<input type="checkbox" id="collapsible-head1">
-					<div class="collapsible-text">
-						<ul id="all_spells1"></ul>
-					</div>
-				</div>
-				
-				<div class="collapsible">
-					<label for="collapsible-head2">Level 2</label>
-					<input type="checkbox" id="collapsible-head2">
-					<div class="collapsible-text">
-						<ul id="all_spells2"></ul>
-					</div>
-				</div>
-				
-				<div class="collapsible">
-					<label for="collapsible-head3">Level 3</label>
-					<input type="checkbox" id="collapsible-head3">
-					<div class="collapsible-text">
-						<ul id="all_spells3"></ul>
-					</div>
-				</div>
-				
-				<div class="collapsible">
-					<label for="collapsible-head4">Level 4</label>
-					<input type="checkbox" id="collapsible-head4">
-					<div class="collapsible-text">
-						<ul id="all_spells4"></ul>
-					</div>
-				</div>
-				
-				<div class="collapsible">
-					<label for="collapsible-head5">Level 5</label>
-					<input type="checkbox" id="collapsible-head5">
-					<div class="collapsible-text">
-						<ul id="all_spells5"></ul>
-					</div>
-				</div>
-				
-				<div class="collapsible">
-					<label for="collapsible-head6">Level 6</label>
-					<input type="checkbox" id="collapsible-head6">
-					<div class="collapsible-text">
-						<ul id="all_spells6"></ul>
-					</div>
-				</div>
-			</div>
-		</section>
+			<section>
+				<button id="display_known">known</button>
+				<h3>Known Spells</h3>	
+				<div id="known-spells">
+					<button type="button" id="known_lvl1">Open Collapsible</button>
+					<div class="content">
+					  <p>Lorem ipsum...</p>
+					</div> 
 
-	</div>
+				</div>
+			</section>
+		
+			<section>	
+				<button id="display_all">all</button>
+				<h3>Spell List</h3>
+				
+				<div id="all-spells">
+	
+				</div>
+			</section>
+
+		</div>
 
 
 
