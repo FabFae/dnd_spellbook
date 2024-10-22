@@ -1,0 +1,51 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+ul{
+  list-style-type: none;
+}
+
+div#spells{
+  display: flex;
+  flex-direction: row;
+  width: 50%;  
+}
+
+#spells section{
+  width: 50%;
+  font-weight: bolder;
+}
+
+.collapsible label{
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+}
+
+
+
+.collapsible lable:after{
+  content: "";
+}
+
+.collapsible-text{
+  display: none;
+}
+
+.collapsible input:checked ~ .collapsible-text{
+  display: flex;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
