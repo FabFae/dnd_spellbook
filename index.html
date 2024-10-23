@@ -17,21 +17,73 @@
 			<section>
 				<button id="display_known">known</button>
 				<h3>Known Spells</h3>	
-				<div id="known-spells">
-					<button type="button" id="known_lvl1">Open Collapsible</button>
-					<div class="content">
-					  <p>Lorem ipsum...</p>
-					</div> 
+				<div id="all-spells">	
+					<details>
+						<summary>Spells Level 1</summary>
+						<ul id="known_spells1"></ul>
+					</details>
 
+					<details>
+						<summary>Spells Level 2</summary>
+						<ul id="known_spells2"></ul>
+					</details>
+
+					<details>
+						<summary>Spells Level 3</summary>
+						<ul id="known_spells3"></ul>
+					</details>
+			
+					<details>
+						<summary>Spells Level 4</summary>
+						<ul id="known_spells4"></ul>
+					</details>
+
+					<details>
+						<summary>Spells Level 5</summary>
+						<ul id="known_spells5"></ul>
+					</details>
+					
+					<details>
+						<summary>Spells Level 6</summary>
+						<ul id="known_spells6"></ul>
+					</details>	
 				</div>
 			</section>
 		
 			<section>	
-				<button id="display_all">all</button>
+				<button id="display_all">pop</button>
 				<h3>Spell List</h3>
 				
-				<div id="all-spells">
-	
+				<div id="all-spells">					
+						<details>
+						  <summary>Spells Level 1</summary>
+						  <ul id="all_spells1"></ul>
+						</details>
+
+						<details>
+							<summary>Spells Level 2</summary>
+							<ul id="all_spells2"></ul>
+						</details>
+
+						<details>
+						  <summary>Spells Level 3</summary>
+						  <ul id="all_spells3"></ul>
+						</details>
+				
+						<details>
+						  <summary>Spells Level 4</summary>
+						  <ul id="all_spells4"></ul>
+						</details>
+
+						<details>
+							<summary>Spells Level 5</summary>
+							<ul id="all_spells5"></ul>
+						</details>
+						
+						<details>
+							<summary>Spells Level 6</summary>
+							<ul id="all_spells6"></ul>
+						</details>	
 				</div>
 			</section>
 
@@ -40,6 +92,15 @@
 
 
 		<iframe src="" frameborder="0"></iframe>
+
+		<div id="spellInfo" class="modal">
+			<div class="modal-content">
+			  <span class="close">&times;</span>
+			  <h3 id="spellName"></h3>			
+			  <p id="spellDescription"></p>
+			  
+			</div>
+		</div>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
